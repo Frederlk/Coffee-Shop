@@ -1,5 +1,5 @@
 {
-  "name": "gpt-3",
+  "name": "---",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,8 +8,18 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "inputmask": "latest",
+    "lightgallery": "latest",
+    "nouislider": "latest",
+    "smooth-scroll": "latest",
+    "swiper": "latest",
+    "tippy.js": "latest",
+    "node-sass": "^7.0.1",
+    "sass": "latest",
+    "sass-loader": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
