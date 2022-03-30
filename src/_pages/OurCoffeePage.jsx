@@ -10,15 +10,19 @@ const OurCoffeePage = () => {
         <>
             <Helmet>
                 <meta
-                    name="For your pleasure"
+                    name="Our Coffee"
                     content="Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible."
                 />
-                <title>For your pleasure</title>
+                <title>Our Coffee</title>
             </Helmet>
 
-            <Top image={images.bg3} title='For your pleasure' />
+            <Top image={images.bg2} title='Our Coffee' />
 
-            <About title='About Our Beans' classnames='about_our' image={images.forYourPleasure} >
+            <About title='Our Coffee' classnames='about_our' image={images.ourCoffee} >
+                <p>
+                    Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                </p>
+
                 <p>
                     Afraid at highly months do things on at. Situation recommend objection do intention
                     so questions.
@@ -26,13 +30,9 @@ const OurCoffeePage = () => {
                     met spot shy want. Children me laughing we prospect answered followed. At it went
                     is song that held help face.
                 </p>
-
-                <p>
-                    Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
-                </p>
             </About>
 
-            <Catalog />
+            <Catalog filters />
         </>
     )
 }

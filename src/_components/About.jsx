@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { BeansSeparator } from './';
 
 const About = ({ classnames = '', children, title, image = false }) => {
@@ -16,7 +15,7 @@ const About = ({ classnames = '', children, title, image = false }) => {
             <div className="about__container">
                 {!image ? <AboutLayot /> :
                     <div className="about__body">
-                        <div className="about__image-ibg">
+                        <div data-da=".about__content,650.98,2" className="about__image-ibg">
                             <img src={image} alt={title} />
                         </div>
                         <AboutLayot />
